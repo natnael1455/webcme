@@ -7,7 +7,7 @@ body{
   background-attachment: fixed;
 }
 
-div{
+#main{
 position:absolute;
 top:50%;
 left:50%;
@@ -16,15 +16,32 @@ width:100vmax;
 height:100vmin;
 }
 
-canvas {
-background:rgb(28, 137, 180);
+#myCanvas {
+background:rgb(255, 255, 255);
 position:absolute;
 top:0;
 left:0;
-width:50vmin;
-height:50vmin;
+width:700px;
+height:700px;
 }
 
+#controls{
+	background:rgb(148, 147, 147);
+	position:absolute;
+	top:10px;
+	left:705px;
+	width:400px;
+	height:200px;
+}
+
+#wave{
+	background:rgb(5, 155, 224);
+	position:absolute;
+	top:215px;
+	left:705px;
+	width:400px;
+	height:400px;
+}
 
 
 

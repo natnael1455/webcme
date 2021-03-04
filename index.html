@@ -5,8 +5,20 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body >
-		<div>
+		<div id="main">
 			<canvas id="myCanvas"></canvas>
+			<div id="controls">
+			<input type="range" name ="red" id="red"
+			  min="0" max="200">
+			<label for="red" style="color:red">Red</label><br/>
+			<input type="range" name ="Green" id="Green"
+			  min="0" max="200">
+			<label for="Green" style="color:green">Green</label><br/>
+			<input type="range" name ="blue" id="Blue"
+			  min="0" max="200">
+			<label for="Blue" style="color:blue">Blue</label><br/>
+			</div>
+			<canvas id="wave"></canvas>
 		</div>
 	</body>
 </html>
