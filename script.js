@@ -31,6 +31,7 @@ window.onload = function () {
 
 
 function main(){
+	
 	CANVAS=init_canvas("myCanvas",SIZE,SIZE)
 	ctx=CANVAS.getContext("2d");
 	inti_camera();
@@ -80,11 +81,11 @@ function effects(ctx){
 			data[(y*SIZE+x)*4+0]=colorvalue(pixel_data.red,red);
 			data[(y*SIZE+x)*4+1]=colorvalue(pixel_data.green,green);
 			data[(y*SIZE+x)*4+2]=colorvalue(pixel_data.blue,blue);
-
 	   }
+	  
    }
-   let hest_array= new Array(2**24).fill(0);
    ctx.putImageData(imgData,0,0);
+  
 }
 
 function pixel(data,x,y){
